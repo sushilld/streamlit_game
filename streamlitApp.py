@@ -139,7 +139,7 @@ ctx = webrtc_streamer(
     key="example",
     video_processor_factory=VideoProcessor,
     rtc_configuration={
-        "iceServers": [{"urls": ["stun:iphone-stun.strato-iphone.de:3478"]}]
+        "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
     },
     media_stream_constraints={
         "video" : True,
